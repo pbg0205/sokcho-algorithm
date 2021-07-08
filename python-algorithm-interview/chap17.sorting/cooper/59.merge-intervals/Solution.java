@@ -1,5 +1,9 @@
 import java.util.*;
 
+/**
+ * 실행 시간 : 8ms (25.78%)
+ * 메모리 사용 : 41.6MB (70.82%)
+ */
 public class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
