@@ -3,6 +3,9 @@ import java.util.*;
 /**
  * 실행 시간 : 9ms (21.32%)
  * 메모리 사용량 : 41.2MB (94.18%)
+ *
+ * < leetcode에서 제공한 solution >
+ * - 정렬 후, 가장 끝 값의 비교해 최댓값으로 갱신하는 로직
  */
 
 public class Solution02 {
