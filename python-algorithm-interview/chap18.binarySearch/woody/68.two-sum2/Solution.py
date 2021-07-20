@@ -1,9 +1,6 @@
 class Solution(object):
     def twoSum(self, numbers, target): # fail
 
-        if numbers[0] == numbers[-1]:
-
-
         for pivot in range(len(numbers) - 1):
             complement = target - numbers[pivot]
             result = self.find(numbers[pivot + 1:], complement)
